@@ -1,5 +1,5 @@
 {
-  "Post": {
+  "Data": {
     "enabled_all": "boolean",
     "sources": "Source[]"
   },
