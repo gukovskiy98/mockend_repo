@@ -1,8 +1,6 @@
 {
-  "sources": {
-    "enabled_all": "boolean",
-    "sources_list": "source_el[]"
-  },
+  "enabled_all": "boolean",
+  "sources_list": "source_el[]",
   "source_el": {
     "name": "string",
     "origin": "string",
