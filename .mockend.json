@@ -1,7 +1,7 @@
 {
   "Sources": {
     "enabled_all": "boolean",
-    "sources": "Source[10]"
+    "sources": "Source[]"
   },
   "Source": {
     "name": "string",
