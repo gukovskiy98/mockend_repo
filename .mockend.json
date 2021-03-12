@@ -1,9 +1,9 @@
 {
-  "data": {
-    "enabled_all": "boolean",
-    "sources": "source[]"
-  },
   "source": {
+    "enabled_all": "boolean",
+    "source_lists": "source_list[]"
+  },
+  "source_list": {
     "name": "string",
     "origin": "string",
     "enabled": "boolean",
