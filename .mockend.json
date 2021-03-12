@@ -1,10 +1,13 @@
 {
-  "enabled_all": "boolean",
-  "sources_list": "source_el[]",
-  "source_el": {
-    "name": "string",
-    "origin": "string",
-    "enabled": "boolean",
-    "available": "boolean"
+  "sources": {
+    "enabled_all": "boolean",
+    "sources_list": [
+      {
+        "name": "string",
+        "origin": "string",
+        "enabled": "boolean",
+        "available": "boolean"
+      }
+    ],
   }
 }
