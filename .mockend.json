@@ -1,6 +1,6 @@
 {
   "data": {
-    "enabled_all": "string",
+    "enabled_all": "boolean",
     "sources": "source[]"
   },
   "source": {
