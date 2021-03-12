@@ -1,31 +1,12 @@
 {
-  "Post": {
-    {
-      enabled_all: false,
-      sources: [
-        {
-          name: 'viber_source1',
-          origin: 'viber',
-          enabled: true,
-          available: true,
-        },
-        {
-          name: 'viber_source2',
-          origin: 'viber',
-          enabled: true,
-          available: true,
-        },
-        {
-          name: 'telegram_source1',
-          origin: 'telegram',
-          enabled: false,
-          available: true,
-        },
-      ]
-    }
+  "Sources": {
+    "enabled_all": "boolean",
+    "sources": "Source[]",
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Source": {
+    "name": "string",
+    "origin": "string",
+    "enabled": "boolean",
+    "available": "boolean",
   }
 }
