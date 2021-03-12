@@ -1,7 +1,4 @@
 {
-  "List": {
-    "sources": "Source[]"
-  },
   "Source": {
     "name": "string",
     "origin": "string",
