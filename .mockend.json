@@ -1,5 +1,7 @@
 {
-  "sources": "Source[]",
+  "Sources": {
+    "sources": "Source[]"
+  },
   "Source": {
     "name": "string",
     "origin": "string",
