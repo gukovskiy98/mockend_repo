@@ -1,10 +1,28 @@
 {
   "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+    {
+      enabled_all: false,
+      sources: [
+        {
+          name: 'viber_source1',
+          origin: 'viber',
+          enabled: true,
+          available: true,
+        },
+        {
+          name: 'viber_source2',
+          origin: 'viber',
+          enabled: true,
+          available: true,
+        },
+        {
+          name: 'telegram_source1',
+          origin: 'telegram',
+          enabled: false,
+          available: true,
+        },
+      ]
+    }
   },
   "Comment": {
     "body": "string",
