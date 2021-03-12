@@ -1,13 +1,12 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "data": {
+    "enabled_all": "string",
+    "sources": "source[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "source": {
+    "name": "string",
+    "origin": "string",
+    "enabled": "boolean",
+    "available": "boolean"
   }
 }
