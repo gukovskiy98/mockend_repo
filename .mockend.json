@@ -1,6 +1,5 @@
 {
   "List": {
-    "enabled_all": "boolean",
     "sources": "Source[]"
   },
   "Source": {
