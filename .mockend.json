@@ -1,12 +1,12 @@
 {
   "Sources": {
     "enabled_all": "boolean",
-    "sources": "Source[]",
+    "sources": "Source[]"
   },
   "Source": {
     "name": "string",
     "origin": "string",
     "enabled": "boolean",
-    "available": "boolean",
+    "available": "boolean"
   }
 }
