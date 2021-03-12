@@ -1,4 +1,8 @@
 {
+  "List": {
+    "enabled_all": "boolean",
+    "sources": "Source[]"
+  },
   "Source": {
     "id": "string",
     "origin": "string",
